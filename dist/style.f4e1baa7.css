@@ -23,15 +23,13 @@ body{background-color: hsl(0, 0%, 93%);}
 }
 
 body{
-    background-image: url("/background.2e8e41b4.jpg");
+    background-image: url("background.2e8e41b4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow-x: hidden;
     min-width: 100vw;
     min-height: 100vh;
-    max-height: 100vh;
-    max-width: 100vw;
 }
 @media(min-width: 500px) {
     .globalHeader{
@@ -147,4 +145,4 @@ body{
     margin-top: 4px;
 }
 
-/*# sourceMappingURL=/style.116e2a07.css.map */
+/*# sourceMappingURL=style.f4e1baa7.css.map */
