@@ -17,12 +17,12 @@ img{
  }
 
 /* style */
-body{background-color: hsl(0, 0%, 93%);}
 .globalHeader {
     margin: 20px;
 }
 
 body{
+    background-color: #eee;
     background-image: url("./images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,6 +30,7 @@ body{
     overflow-x: hidden;
     min-width: 100vw;
     min-height: 100vh;
+    display: block;
 }
 @media(min-width: 500px) {
     .globalHeader{
@@ -88,6 +89,10 @@ body{
 .siteList > li {
     margin-bottom: 10px;
 }
+.siteList > li:hover{
+    transform: scale(1.1);
+}
+
 @media(min-width: 500px) {
     .siteList > li{
         margin-right: 25px;
