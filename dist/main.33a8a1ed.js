@@ -124,7 +124,7 @@ var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
   logo: 'A',
-  url: 'https://www.acfun.com'
+  url: 'https://www.alibaba.com'
 }, {
   logo: 'B',
   url: 'https://www.bilibili.com'
@@ -181,4 +181,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.2aed6042.js.map
+//# sourceMappingURL=main.33a8a1ed.js.map
