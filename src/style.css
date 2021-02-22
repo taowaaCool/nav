@@ -31,6 +31,7 @@ body{
     min-width: 100vw;
     min-height: 100vh;
     display: block;
+    overflow-y: hidden;
 }
 @media(min-width: 500px) {
     .globalHeader{
